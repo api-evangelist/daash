@@ -1,7 +1,14 @@
 aid: daash
 name: Daash
-description: Daash is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: DAASH is an AI-powered predictive commerce intelligence platform built specifically for the
+  beauty and cosmetics industry. It combines consumer shopping panels covering 6M+ people with social and
+  advertising trend data and enriched product attributes to estimate sales performance, market share, and
+  emerging trends at the SKU level. DAASH delivers weekly competitive intelligence to beauty brands,
+  manufacturers, and financial services firms so they can uncover category shifts, benchmark competitor
+  performance, and spot growth opportunities. The company was founded at the intersection of predictive
+  intelligence and consumer products by retail and data experts (Philip Smolin, CEO; Justin Stewart, CTO;
+  Melissa Munnerlyn, CMO), and is a portfolio company of Bullpen Capital. DAASH is delivered as a hosted
+  SaaS application (my.daash.co); it currently exposes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/daash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/66109b23edef07cc0cd19202/663cc81602539dc4e69fac78_Daash-Logo-Digital-Black.svg
 tags:
 - Company
+- Competitive Intelligence
+- Market Intelligence
+- Beauty
+- Cosmetics
+- Consumer Products
+- Retail Analytics
+- Predictive Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://daash.co
+  url: https://daash.co
+- type: Login
+  url: https://my.daash.co/
+- type: Support
+  url: https://daash.co/contact
+- type: TermsOfService
+  url: https://daash.co/subscribe/tc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/daash-intelligence/
+- type: DomainSecurity
+  url: security/daash-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
