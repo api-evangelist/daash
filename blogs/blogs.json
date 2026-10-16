@@ -1,0 +1,14 @@
+{
+  "repo": "daash",
+  "feeds": [
+    {
+      "source": "https://daash.co/press",
+      "feed_url": "https://daash.co/press",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
